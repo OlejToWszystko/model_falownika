@@ -1,0 +1,74 @@
+object Form1: TForm1
+  Left = 232
+  Height = 699
+  Top = 173
+  Width = 1124
+  Caption = 'model falownika'
+  ClientHeight = 699
+  ClientWidth = 1124
+  OnCreate = FormCreate
+  LCLVersion = '1.2.4.0'
+  object readButton: TButton
+    Left = 16
+    Height = 25
+    Top = 8
+    Width = 120
+    Caption = 'Wczytaj dane'
+    OnClick = readButtonClick
+    TabOrder = 0
+  end
+  object Wykres: TShape
+    Left = 280
+    Height = 600
+    Top = 8
+    Width = 800
+  end
+  object symulacjaButton: TButton
+    Left = 16
+    Height = 25
+    Top = 48
+    Width = 120
+    Caption = 'Symulacja'
+    OnClick = symulacjaButtonClick
+    TabOrder = 1
+  end
+  object doneLabel: TLabel
+    Left = 160
+    Height = 1
+    Top = 12
+    Width = 1
+    ParentColor = False
+  end
+  object done2Label: TLabel
+    Left = 160
+    Height = 1
+    Top = 48
+    Width = 1
+    ParentColor = False
+  end
+  object stopButton: TButton
+    Left = 16
+    Height = 25
+    Top = 88
+    Width = 120
+    Caption = 'Stop'
+    OnClick = stopButtonClick
+    TabOrder = 2
+  end
+  object saveCheckBox: TCheckBox
+    Left = 280
+    Height = 25
+    Top = 624
+    Width = 66
+    Caption = 'Zapisz'
+    TabOrder = 3
+  end
+  object saveEdit: TEdit
+    Left = 368
+    Height = 33
+    Top = 616
+    Width = 80
+    TabOrder = 4
+    Text = 'saveEdit'
+  end
+end
